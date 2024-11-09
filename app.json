@@ -4,10 +4,10 @@
     "slug": "timer-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/timer.svg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/timer.svg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,12 +16,25 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/timer.svg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.vilas22.timerapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/timer.svg"
+    },
+    "build": {
+      "preview": {
+        "android": {
+          "buildType": "apk"
+        }
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f68f7c3d-3024-47e4-96d3-2340843a6ee9"
+      }
     }
   }
 }
